@@ -1,0 +1,195 @@
+﻿*
+{
+    box-sizing: border-box;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+body
+{
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+header 
+{
+    display: flex;
+    background-color: lightblue;
+    position: fixed;
+    width: 100%;
+    transition: 0.2s;
+}
+
+    header h1 {
+        font-family: Arial;
+        padding: 10px;
+        margin: 15px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    header ul li {
+        display: inline;
+        line-height: 56px;
+        padding: 15px;
+        margin: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    header ul a {
+        font-family: Arial;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+
+    .classic-border {
+        background-color: aliceblue;
+        border-top: 2px solid white;
+        border-right: 2px solid dimgray;
+        border-bottom: 2px solid dimgray;
+        border-left: 2px solid white;
+        transition: 0.2s;
+    }
+
+.navlinks 
+{
+    float: right;
+    margin-left: 55%;
+    padding: 0px;
+}
+
+    .navlinks :hover {
+        background-color: lightgray;
+    }
+
+.column
+{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.trescolumn {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.welcome
+{
+    font-size: 126px;
+    font-family: Arial;
+    margin-top: 20%;
+    margin-left: 10%;
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+}
+
+/*Parallax Section*/
+
+.parallax {
+    background-image: url("images/me-parallax.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax2 {
+    background-image: url("images/parallax-2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax3 {
+    background-image: url("images/parallax-3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*End Of Parallax Section*/
+
+.newsection
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 56px;
+}
+
+p
+{
+    font-size: 26px;
+    font-family: Arial;
+    margin: 5%;
+}
+
+.listlink
+{
+    /*empty*/
+}
+
+label
+{
+    font-size: 24px;
+    font-family: Arial;
+    margin: 10%
+}
+
+input
+{
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 15px;
+    width: 80%;
+    margin: 0% 10% 2% 10%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.submit 
+{
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.submit:hover
+{
+    background-color: lightgray;
+}
+
+div ul li
+{
+    font-family: Arial;
+    font-size: 26px;
+    text-align: center;
+    list-style-type: none;
+}

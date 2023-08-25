@@ -1,0 +1,203 @@
+﻿body
+{
+    margin: 0px;
+}
+
+header
+{
+    background-color: lightblue;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: fixed;
+    width: 100%;
+}
+
+    header h1 {
+        border-top: 2px solid white;
+        border-left: 2px solid white;
+        border-right: 2px solid dimgray;
+        border-bottom: 2px solid dimgray;
+        padding: 0px 5px 0px 5px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+ul li 
+{
+    display: inline;
+}
+
+li a 
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 52px;
+    margin: 0px 15px 0px 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+div h1
+{
+    font-size: 162px;
+    margin: 0px;
+}
+
+div h2
+{
+    font-size: 52px;
+    padding-top: 152px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.topheaderarticle 
+{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0px;
+}
+
+.center
+{
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+
+}
+
+div p
+{
+    font-size: 52px;
+}
+
+div img 
+{
+    border: 5px solid lightblue;
+}
+
+.abutton 
+{
+    margin-left: 500px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Arial;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    box-shadow: 5px 5px 5px 1px dimgray;
+}
+
+.sub{
+    text-align: center;
+}
+
+.sub h2{
+    padding: 0px;
+    color: lightblue;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+.sub h1 {
+    font-size: 56px;
+}
+
+.sub p {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin-left: 750px;
+}
+
+/* Center the form header */
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style form labels */
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Style form input fields */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s;
+}
+
+    .form-input:focus {
+        border-color: #555;
+    }
+
+/* Style form textarea */
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    transition: border-color 0.3s;
+}
+
+    .form-textarea:focus {
+        border-color: #555;
+    }
+
+/* Style the submit button */
+.form-submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+    .form-submit:hover {
+        background-color: #555;
+    }

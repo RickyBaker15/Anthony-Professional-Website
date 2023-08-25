@@ -1,0 +1,109 @@
+﻿<!--
+Anthony Leon
+(HTML/CSS- PA22)
+(8/22/2023)
+-->
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML/CSS PA22</title>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h1>AL</h1>
+
+        <!--nav bar-->
+        <ul style="float: right; margin-left: 50%;">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BOOKS</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </header>
+    <!--class made for the main header-->
+    <div class="topheaderarticle">
+        <h2>Read This If You Want To Get Good At Guitar.</h2>
+        <h1>Anthony Leon</h1>
+    </div>
+    <!--center guitar image-->
+    <div class="center" style="background-color: lightblue;">
+        <img src="img/stock_guitar1.jpg" style="width: 100%; height: 750px;" />
+    </div>
+
+    <div style="margin: 20%; margin-top: 0%;">
+        <p style="text-align: center;">
+            I'm Anthony Leon A Professional Guitar Player, Fushigi Ball
+            Handler, Programmer, Engineer, and Minecrafter. I
+            have 72 years of on-sight expeirence and know
+            the industry very well.
+        </p>
+        <!--very poorly formated quote section-->
+        <div style="display:flex;">
+            <img src="img/me.png"
+                 style="background-color: lightblue;
+                 width: 450px;" />
+            <p style="margin-left: 100px; margin-bottom: 0px; margin-top:0px ; height: 100px;">
+                <u>
+                    Anthony Leon
+                    <br />Son of a Mother
+                    <br />and Son of a Father
+                </u>
+            </p>
+
+        </div>
+
+        <a href="#" class="abutton">See More Works</a>
+
+    </div>
+    <!--book section-->
+    <div class="sub">
+        <h2>Our Books</h2>
+        <h1>Books that I've Written'</h1>
+        <p>I ain't write these, these are just some of my favorite books</p>
+    </div>
+
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <h2>Column 2</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+            <h2>Column 3</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+            <h2>Column 4</h2>
+            <p>Some text..</p>
+        </div>
+    </div>
+
+    <!--Contact Page-->
+    <div class="sub">
+        <h2 style="margin-top: 50px;"></h2>
+        <h1>Contact</h1>
+
+        <form class="form-container">
+            <h2 class="form-header">Contact Us</h2>
+            <label class="form-label" for="name">Name:</label>
+            <input class="form-input" type="text" id="name" name="name" required>
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-input" type="email" id="email" name="email" required>
+            <label class="form-label" for="message">Message:</label>
+            <textarea class="form-textarea" id="message" name="message" rows="4" required></textarea>
+            <input class="form-submit" type="submit" value="Submit">
+        </form>
+
+    </div>
+
+    <p style="font-size: 16px; color: dimgray;">Copyright &copy;2023 All rights reserved | Anthony Leon</p>
+</body>
+</html>

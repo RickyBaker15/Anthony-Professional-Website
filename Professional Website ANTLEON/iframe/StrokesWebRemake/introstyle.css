@@ -1,0 +1,28 @@
+﻿/*
+Anthony Leon
+HTML/CSS- PA09
+(8/10/2023)
+This is the CSS style sheet for the intro page
+*/
+body {
+    text-align: center;
+    background-color: #1014b4;
+}
+div{
+  margin: auto;
+  width: 50%;
+}
+
+a{
+    color: white;
+    font-family: minecraftia;
+    font-size: 2em;
+    text-decoration: none;
+}
+img{
+    width: auto;
+    height: auto;
+}
+a:hover{
+    text-decoration:underline;
+}

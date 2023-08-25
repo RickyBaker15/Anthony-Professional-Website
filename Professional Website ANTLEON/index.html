@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anthony's Professional Website</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!--Nav Bar-->
+    <header id="header">
+        <h1 id="headerh1" class="classic-border">Anthony's Website</h1>
+
+        <ul class="navlinks classic-border" id="navlink">
+            <li class="listlink"><a href="#home">HOME</a></li>
+            <li class="listlink"><a href="#about">ABOUT</a></li>
+            <li class="listlink"><a href="#projects">PROJECTS</a></li>
+            <li class="listlink"><a href="#contact">CONTACT</a></li>
+        </ul>
+    </header>
+
+    <script src="scroll.js"></script>
+
+    <div class="row" style="padding-top: 90px;">
+        <div class="column">
+            <h1 class="welcome" id="home">Welcome to my Website!</h1>
+        </div>
+
+        <div class="column" style="background-color: lightblue;">
+            <img src="images/me.png" class="classic-border" style="width: 535px; margin-left: 100px;" />
+        </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <!--About Me-->
+
+    <div>
+        <h1 class="newsection classic-border" id="about">About Me</h1>
+        <p>
+            Hi I'm Anthony Leon, I'm a student at EVIT currently studying software development. Some of my hobbies and interests are playing guitar, listening to music, building computers, and
+            playing games! I have earned certifications for Python, HTML/CSS, and Javascript and I also have passed the TSA for software development.
+        </p>
+        <h1 class="newsection classic-border" id="about">Certifications</h1>
+        <ul>
+            <li> 
+                <a href="https://www.credly.com/badges/60b5a696-8320-4d1f-801c-ddd6c21c78db/linked_in_profile">IT Specialist - Python</a>
+            </li>
+            <li>
+                <a href="https://www.credly.com/badges/fed935b7-20c5-4c41-9580-519a9a744110/linked_in_profiles">IT Specialist - HTML/CSS</a>
+            </li>
+            <li>
+                <a href="https://www.credly.com/badges/c9577ef2-ba65-45ed-9582-f6888ef01179/linked_in_profile">IT Specialist - JavaScript</a>
+            </li>
+        </ul>
+
+
+    </div>
+
+    <div class="parallax2"></div>
+
+    <!--My Projects-->
+
+    <div>
+        <h1 class="newsection classic-border" id="projects">My Projects</h1>
+    </div>
+
+    <div class="row classic-border">
+        <div class="trescolumn" style="margin-left: 5%;">
+            <iframe src="iframe/strokeswebremake/intro.html" title="Strokes Web Remake" style="width: 500px; height: 700px;"></iframe>
+        </div>
+
+        <div class="trescolumn">
+            <iframe src="iframe/strokeswebremake/intro.html" title="Strokes Web Remake" style="width: 500px; height: 700px;"></iframe>
+        </div>
+
+        <div class="trescolumn">
+            <iframe src="iframe/strokeswebremake/intro.html" title="Strokes Web Remake" style="width: 500px; height: 700px;"></iframe>
+        </div>
+    </div>
+
+    <div class="parallax3"></div>
+
+    <!--Contact Me-->
+
+    <div style="margin-bottom: 15%">
+        <h1 class="newsection classic-border" id="contact">Contact Me</h1>
+
+        <form id="form" class="classic-border center">
+            <div class="field">
+                <label for="from_name">Name</label> <br />
+                <input type="text" name="from_name" id="from_name">
+            </div>
+            <div class="field">
+                <label for="message">Message</label> <br />
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="field">
+                <label for="from_email">Email</label> <br />
+                <input type="text" name="from_email" id="from_email">
+            </div>
+
+            <input class="submit" type="submit" id="button" value="Send Email">
+        </form>
+
+        <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+            emailjs.init('TNpTGEMpBq77kyHte')
+        </script>
+        <script src="jsemail.js"></script>
+    </div>
+
+    <footer>
+        <p style="font-size: 16px; margin: 0px; text-align: center; color: dimgray;">Copyright &copy; 2023 | Anthony Leon</p>
+    </footer>
+
+</body>
+</html>
