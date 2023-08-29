@@ -68,6 +68,18 @@ header
         background-color: lightgray;
     }
 
+@media screen and (max-width:800px) {
+    header { 
+        margin:0px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .navlinks{
+        margin: 0px;
+    }
+
+}
 .column
 {
     float: left;
@@ -90,7 +102,7 @@ header
 
 .welcome
 {
-    font-size: 126px;
+    font-size: 6vw;
     font-family: Arial;
     margin-top: 20%;
     margin-left: 10%;
@@ -98,98 +110,123 @@ header
     text-decoration-color: lightblue;
 }
 
-/*Parallax Section*/
-
-.parallax {
-    background-image: url("images/me-parallax.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+@media screen and (max-width: 800px) {
+    .welcome {
+        font-size: 9vw;
+        text-align: center;
+        font-family: Arial;
+        margin-top: 25%;
+        margin-left: 0px;
+        text-decoration: underline;
+        text-decoration-color: lightblue;
+    }
 }
 
-.parallax2 {
-    background-image: url("images/parallax-2.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+    /*Parallax Section*/
 
-.parallax3 {
-    background-image: url("images/parallax-3.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    .parallax {
+        background-image: url("images/me-parallax.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-/*End Of Parallax Section*/
+    .parallax2 {
+        background-image: url("images/parallax-2.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-.newsection
-{
-    text-align: center;
-    font-family: Arial;
-    font-size: 56px;
-}
+    .parallax3 {
+        background-image: url("images/parallax-3.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-p
-{
-    font-size: 26px;
-    font-family: Arial;
-    margin: 5%;
-}
+    /*End Of Parallax Section*/
 
-.listlink
-{
-    /*empty*/
-}
+    .newsection {
+        text-align: center;
+        font-family: Arial;
+        font-size: 56px;
+    }
 
-label
-{
-    font-size: 24px;
-    font-family: Arial;
-    margin: 10%
-}
+    p {
+        font-size: 26px;
+        font-family: Arial;
+        margin: 5%;
+    }
 
-input
-{
-    border: 1px solid dimgray;
-    border-radius: 5px;
-    font-family: Arial;
-    font-size: 20px;
-    padding: 15px;
-    width: 80%;
-    margin: 0% 10% 2% 10%;
-}
+    .listlink {
+        /*empty*/
+    }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+    label {
+        font-size: 24px;
+        font-family: Arial;
+        margin: 10%
+    }
 
-.submit 
-{
-    margin-top: 5%;
-    cursor: pointer;
-}
+    input {
+        border: 1px solid dimgray;
+        border-radius: 5px;
+        font-family: Arial;
+        font-size: 20px;
+        padding: 15px;
+        width: 80%;
+        margin: 0% 10% 2% 10%;
+    }
 
-.submit:hover
-{
-    background-color: lightgray;
-}
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 
-div ul li
-{
-    font-family: Arial;
-    font-size: 26px;
-    text-align: center;
-    list-style-type: none;
-}
+    .submit {
+        margin-top: 5%;
+        cursor: pointer;
+    }
+
+        .submit:hover {
+            background-color: lightgray;
+        }
+
+    div ul li {
+        font-family: Arial;
+        font-size: 26px;
+        text-align: center;
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    .meimg {
+        color: blue;
+    }
+
+    @media screen and (max-width: 800px) {
+        .column {
+            width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .trescolumn {
+            width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .meimg {
+            display: none;
+        }
+    }
