@@ -71,12 +71,23 @@ header
 @media screen and (max-width:800px) {
     header { 
         margin:0px;
+        padding:15px 0px 15px 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    header h1{
+        margin: 0px;
+        padding: 0px;
+        line-height: 52px;
     }
 }
 
 @media screen and (max-width:800px){
-    .navlinks{
+    .navlinks {
         margin: 0px;
+        padding: 0px;
     }
 
 }
@@ -115,8 +126,9 @@ header
         font-size: 9vw;
         text-align: center;
         font-family: Arial;
-        margin-top: 25%;
+        margin-top: 30%;
         margin-left: 0px;
+        padding-bottom: 25%;
         text-decoration: underline;
         text-decoration-color: lightblue;
     }
@@ -132,6 +144,17 @@ header
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+@media screen and (max-width: 800px) {
+    .parallax {
+        background-image: url("images/phone-parallax.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
     .parallax2 {
         background-image: url("images/parallax-2.jpg");
@@ -228,5 +251,14 @@ header
     @media screen and (max-width: 800px) {
         .meimg {
             display: none;
+        }
+    }
+
+.margin-left-hover{
+    margin-left: 5%;
+}
+    @media screen and (max-width: 800px) {
+        .margin-left-hover {
+            margin-left: 0%;
         }
     }
